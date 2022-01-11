@@ -75,7 +75,7 @@ tol = 1e-4;
 ***Building context-specific models***
 ```
 [Models,RxnImp] = buildContextmodels(geneExpression,model,MeM,contexts,ut,lt,ThS,coreRxn,,tol)
-
+```
 
 ### Acknowledgements
 * [Initiative for Biological Systems Engineering](https://ibse.iitm.ac.in/)
