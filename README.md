@@ -81,11 +81,11 @@ __________________________________________________________________________
 
 ### Description of other .m functions
 
-'GeneEssentialityAcc.m' : To compute accuracy, pvalue and essential genes for the given context and CRISPR-CAS9 scores
+```GeneEssentialityAcc.m``` : To compute accuracy, pvalue and essential genes for the given context and CRISPR-CAS9 scores
 
-'SelfConsistency.m' : To compute Jaccard similarity betweeen core reaction list and model's reactions and fractional contibution from MeM
+```SelfConsistency.m``` : To compute Jaccard similarity betweeen core reaction list and model's reactions and fractional contibution from MeM
 
-'GiniReactionImportance.m' : Returns MeM specific inputs required to build context-specific models
+```GiniReactionImportance.m``` : Returns MeM specific inputs required to build context-specific models
 
 __________________________________________________________________________
 
