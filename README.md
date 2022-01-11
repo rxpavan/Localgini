@@ -1,5 +1,5 @@
 # Localgini
-Codes for "Localgini: A gini coefficient based thresholdingalgorithm to build constraint based
+Codes for "Localgini: A gini coefficient based thresholding algorithm to build constraint based
 context-specific metabolic models"   
 
 Authors: Pavan Kumar S and Nirav P Bhatt 
