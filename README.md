@@ -27,7 +27,7 @@ initCobraToolbox
 
 **Loading the genome scale model**  
 ```
-model = readCbModel('.\Data\MODEL160315001_url.xml');
+model = readCbModel('.\Data\MODEL1603150001_url.xml');
 ```
 
 **Loading gene expression data**  
