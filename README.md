@@ -13,9 +13,9 @@ Authors: Pavan Kumar S and Nirav P Bhatt
 
 ### To get a context specific model using Localgini follow the steps below
 1. mRNA expression data has to be available as a matlab structure with fields:   
-  	.value : mRNA gene expression matrix with dimension N_genes*N_samples \n
-	.genes : cell array with geneIDs in the same format as model.genes \n
-	.context : cell array with names of the samples \n
+  	.value : mRNA gene expression matrix with dimension N_genes*N_samples <br>
+	.genes : cell array with geneIDs in the same format as model.genes <br>
+	.context : cell array with names of the samples <br>
 
 2. genome-scale model has to be available as a COBRA model structure.
 
