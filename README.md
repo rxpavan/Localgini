@@ -55,7 +55,7 @@ ut = 75;
 lt = 25;
 ```
 
-**Specifying where threshold has to be implied (1==> implied at gene; 2==> implied at enzyme; 3==> implied at reaction)**  
+**Specifying where threshold has to be implied (1==> implied to genes; 2==> implied to enzymes; 3==> implied to reactions)**  
 ```
 ThS = 1; % impliying at gene level
 ```
