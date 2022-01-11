@@ -72,9 +72,14 @@ coreRxn=[biomass_id atp_demand_id];
 tol = 1e-4;
 ```
 
+**Folder path to save the built models**
+```
+filename = './';
+```
+
 ***Building context-specific models***
 ```
-[Models,RxnImp] = buildContextmodels(geneExpression,model,MeM,contexts,ut,lt,ThS,coreRxn,,tol)
+[Models,RxnImp] = buildContextmodels(geneExpression,model,MeM,contexts,ut,lt,ThS,coreRxn,filename,tol)
 ```
 
 __________________________________________________________________________
