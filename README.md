@@ -77,7 +77,19 @@ tol = 1e-4;
 [Models,RxnImp] = buildContextmodels(geneExpression,model,MeM,contexts,ut,lt,ThS,coreRxn,,tol)
 ```
 
-### Acknowledgements
+__________________________________________________________________________
+
+### Description of other .m functions
+
+'GeneEssentialityAcc.m' : To compute accuracy, pvalue and essential genes for the given context and CRISPR-CAS9 scores
+
+'SelfConsistency.m' : To compute Jaccard similarity betweeen core reaction list and model's reactions and fractional contibution from MeM
+
+'GiniReactionImportance.m' : Returns MeM specific inputs required to build context-specific models
+
+__________________________________________________________________________
+
+### Acknowledgement
 * [Centre for Integrative Biology and Systems medicinE](https://ibse.iitm.ac.in/)
 * [Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI)](https://rbcdsai.iitm.ac.in/)
 
